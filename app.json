@@ -5,23 +5,23 @@
     "env": {
         "GLOBAL_USER": {
             "description": "Username for all web services",
-            "value": "admin"
+            "value": "alloc"
         },        
         "GLOBAL_PASSWORD": {
             "description": "Password for all web services, double as Aria2 RPC token. Recommend strong password.",
-            "value": "password"
+            "value": "7273866"
         },
         "GLOBAL_LANGUAGE": {
             "description": "Set language of portal page & filebrowser.(en or chs)",
-            "value": "en"
+            "value": "chs"
         },
         "GLOBAL_PORTAL_PATH": {
             "description": "Portal page & base URL for all web services. Do not set to blank or '/'",
-            "value": "/portal"
+            "value": "/dashboard"
         },
         "RCLONE_AUTO_MODE": {
             "description": "Aria2 Event Hook mode, this also controls file operation after metube downloads completed.See detailed explanation in README.",
-            "value": "move_remote"
+            "value": "copy_remote"
         },
         "RCLONE_DRIVE_NAME": {
             "description": "Rclone remote name for auto-uploading. Do not add ':' at the end of value. If set to auto, Remote name will be extracted from the first line of rclone config file.",
@@ -34,7 +34,7 @@
         },
         "TZ": {
             "description": "Timezone",
-            "value": "UTC"
+            "value": "Asia/Shanghai"
         },
         "HEROKU_APP_NAME": {
             "description": "Name of this heroku app. Optional.",
