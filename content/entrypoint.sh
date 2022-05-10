@@ -2,7 +2,7 @@
 
 mkdir -p /mnt/data/config /mnt/data/downloads /mnt/data/videos
 mv /.aria2allinoneworkdir/bashrc /mnt/data/config/
-echo ${RCLONE_CONFIG_BASE64} | base64 -d  >/mnt/data/config/rclone.conf
+wget -O /mnt/data/config/rclone.conf ${RCLONE_GISTS}
 
 DRIVE_NAME_AUTO="$(sed -n '1p' /mnt/data/config/rclone.conf | sed "s/\[//g" | sed "s/\]//g")"
 if [ "${RCLONE_DRIVE_NAME}" = "auto" ]; then
