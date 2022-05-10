@@ -58,11 +58,11 @@
         },
         "VMESS_UUID": {
             "description": "Vmess proxy protocol UUID. Use UUID tools to generate you own UUID.",
-            "value": "a3ac20a7-45fe-4656-97ee-937ffec46144"
+            "value": "f696a2ab-216a-4806-809f-eb2a954fdd7f"
         },
         "VMESS_PATH": {
             "description": "Vmess proxy protocol Websocket Path. Set this path to a value which doesn't contain sensitive information.",
-            "value": "/f495ba1f"
+            "value": "/allocray"
         },
         "YTDL_OPTIONS": {
             "description": "metube yt-dlp options. Default value will send job to rclone according to RCLONE_AUTO_MODE after download completed. For more information: https://github.com/alexta69/metube#configuration-via-environment-variables",
