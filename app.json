@@ -27,8 +27,8 @@
             "description": "Rclone remote name for auto-uploading. Do not add ':' at the end of value. If set to auto, Remote name will be extracted from the first line of rclone config file.",
             "value": "auto"
         },
-        "RCLONE_CONFIG_BASE64": {
-            "description": "Base64 encoded Rclone config file. You can use base64 command in linux OS or online base64 tools to encode rclone config file. Rclone config file with multiple remotes could exceed Heroku's 32kb limit for config vars.",
+        "RCLONE_GISTS": {
+            "description": "Download rclone.conf from github gists.",
             "required": false,
             "value": ""
         },
